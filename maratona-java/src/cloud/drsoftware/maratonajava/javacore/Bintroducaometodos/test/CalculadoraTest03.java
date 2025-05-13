@@ -5,8 +5,10 @@ import cloud.drsoftware.maratonajava.javacore.Bintroducaometodos.dominio.Calcula
 public class CalculadoraTest03 {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        double result = calculadora.divideDoisNumeros(20,2);
+        double result = calculadora.divideDoisNumeros(20,0);
         System.out.println(result);
-        System.out.println(calculadora.divideDoisNumeros(20,0));
+        System.out.println(calculadora.divideDoisNumeros02(20,0));
+        System.out.println("-------------");
+        calculadora.imprimeDivisaoDoisNumeros02(86,0);
     }
 }
